@@ -15,6 +15,12 @@
 		DBDF34F126BE25050054ED4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF34CD26BE25040054ED4E /* ContentView.swift */; };
 		DBDF34F226BE25050054ED4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDF34CE26BE25050054ED4E /* Assets.xcassets */; };
 		DBDF34F326BE25050054ED4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDF34CE26BE25050054ED4E /* Assets.xcassets */; };
+		DBDF350426BE25C90054ED4E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350326BE25C90054ED4E /* Student.swift */; };
+		DBDF350626BE26B60054ED4E /* StudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350526BE26B60054ED4E /* StudentTests.swift */; };
+		DBDF350726BE29B70054ED4E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350326BE25C90054ED4E /* Student.swift */; };
+		DBDF350926BE2ED90054ED4E /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350826BE2ED90054ED4E /* School.swift */; };
+		DBDF350A26BE30B80054ED4E /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350826BE2ED90054ED4E /* School.swift */; };
+		DBDF350C26BE30CC0054ED4E /* SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350B26BE30CC0054ED4E /* SchoolTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,10 @@
 		DBDF34E226BE25050054ED4E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		DBDF34E826BE25050054ED4E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDF34EC26BE25050054ED4E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		DBDF350326BE25C90054ED4E /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		DBDF350526BE26B60054ED4E /* StudentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTests.swift; sourceTree = "<group>"; };
+		DBDF350826BE2ED90054ED4E /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		DBDF350B26BE30CC0054ED4E /* SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +101,7 @@
 		DBDF34CB26BE25040054ED4E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				DBDF350226BE25B60054ED4E /* Models */,
 				DBDF34CC26BE25040054ED4E /* UnitTestDemoApp.swift */,
 				DBDF34CD26BE25040054ED4E /* ContentView.swift */,
 				DBDF34CE26BE25050054ED4E /* Assets.xcassets */,
@@ -113,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				DBDF34E226BE25050054ED4E /* Tests_iOS.swift */,
+				DBDF350526BE26B60054ED4E /* StudentTests.swift */,
+				DBDF350B26BE30CC0054ED4E /* SchoolTests.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
@@ -123,6 +136,15 @@
 				DBDF34EC26BE25050054ED4E /* Tests_macOS.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		DBDF350226BE25B60054ED4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBDF350326BE25C90054ED4E /* Student.swift */,
+				DBDF350826BE2ED90054ED4E /* School.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBDF34F026BE25050054ED4E /* ContentView.swift in Sources */,
+				DBDF350426BE25C90054ED4E /* Student.swift in Sources */,
 				DBDF34EE26BE25050054ED4E /* UnitTestDemoApp.swift in Sources */,
+				DBDF350926BE2ED90054ED4E /* School.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBDF34E326BE25050054ED4E /* Tests_iOS.swift in Sources */,
+				DBDF350726BE29B70054ED4E /* Student.swift in Sources */,
+				DBDF350626BE26B60054ED4E /* StudentTests.swift in Sources */,
+				DBDF350C26BE30CC0054ED4E /* SchoolTests.swift in Sources */,
+				DBDF350A26BE30B80054ED4E /* School.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
