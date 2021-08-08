@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Student {
+struct Student: Codable {
     /// The name of the student.
     let name: String
     /// The list of all grades for the student.

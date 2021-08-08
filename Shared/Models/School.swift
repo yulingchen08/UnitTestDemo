@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct School {
+struct School: Codable {
     /// Enrolled students.
     let students: [Student]
     /// The top students are defined as students with a GPA >= 4.0.

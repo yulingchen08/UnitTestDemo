@@ -21,6 +21,11 @@
 		DBDF350926BE2ED90054ED4E /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350826BE2ED90054ED4E /* School.swift */; };
 		DBDF350A26BE30B80054ED4E /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350826BE2ED90054ED4E /* School.swift */; };
 		DBDF350C26BE30CC0054ED4E /* SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350B26BE30CC0054ED4E /* SchoolTests.swift */; };
+		DBDF350F26BF77110054ED4E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350E26BF77110054ED4E /* Request.swift */; };
+		DBDF351126BF83E10054ED4E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF351026BF83E10054ED4E /* APIService.swift */; };
+		DBDF351326BF88840054ED4E /* APIServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF351226BF88840054ED4E /* APIServiceTest.swift */; };
+		DBDF351426BF88890054ED4E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF351026BF83E10054ED4E /* APIService.swift */; };
+		DBDF351526BF888D0054ED4E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDF350E26BF77110054ED4E /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,9 @@
 		DBDF350526BE26B60054ED4E /* StudentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTests.swift; sourceTree = "<group>"; };
 		DBDF350826BE2ED90054ED4E /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
 		DBDF350B26BE30CC0054ED4E /* SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTests.swift; sourceTree = "<group>"; };
+		DBDF350E26BF77110054ED4E /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		DBDF351026BF83E10054ED4E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		DBDF351226BF88840054ED4E /* APIServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		DBDF34CB26BE25040054ED4E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				DBDF350D26BE3F630054ED4E /* Network */,
 				DBDF350226BE25B60054ED4E /* Models */,
 				DBDF34CC26BE25040054ED4E /* UnitTestDemoApp.swift */,
 				DBDF34CD26BE25040054ED4E /* ContentView.swift */,
@@ -126,6 +135,7 @@
 				DBDF34E226BE25050054ED4E /* Tests_iOS.swift */,
 				DBDF350526BE26B60054ED4E /* StudentTests.swift */,
 				DBDF350B26BE30CC0054ED4E /* SchoolTests.swift */,
+				DBDF351226BF88840054ED4E /* APIServiceTest.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
@@ -145,6 +155,15 @@
 				DBDF350826BE2ED90054ED4E /* School.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DBDF350D26BE3F630054ED4E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DBDF350E26BF77110054ED4E /* Request.swift */,
+				DBDF351026BF83E10054ED4E /* APIService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,7 +326,9 @@
 			files = (
 				DBDF34F026BE25050054ED4E /* ContentView.swift in Sources */,
 				DBDF350426BE25C90054ED4E /* Student.swift in Sources */,
+				DBDF350F26BF77110054ED4E /* Request.swift in Sources */,
 				DBDF34EE26BE25050054ED4E /* UnitTestDemoApp.swift in Sources */,
+				DBDF351126BF83E10054ED4E /* APIService.swift in Sources */,
 				DBDF350926BE2ED90054ED4E /* School.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDF351326BF88840054ED4E /* APIServiceTest.swift in Sources */,
+				DBDF351526BF888D0054ED4E /* Request.swift in Sources */,
+				DBDF351426BF88890054ED4E /* APIService.swift in Sources */,
 				DBDF34E326BE25050054ED4E /* Tests_iOS.swift in Sources */,
 				DBDF350726BE29B70054ED4E /* Student.swift in Sources */,
 				DBDF350626BE26B60054ED4E /* StudentTests.swift in Sources */,
